@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">KH-MOD</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin">ADMIN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_rounds">ROUNDS</string>
+    <string name="title_activity_activity_ward_main">activity_ward_main</string>
+    <string name="title_activity_general_ward_main">GENERAL WARD</string>
+    <string name="title_activity_special_wrad_main">SPECIAL WARD</string>
+    <string name="title_activity_example">example</string>
+    <string name="title_activity_icu_1">ICU 1</string>
+    <string name="title_activity_icu_2">ICU 2</string>
+    <string name="title_activity_icu_3">ICU 3</string>
+    <string name="title_activity_icu_4">ICU 4</string>
+    <string name="title_activity_casual__icu">CASUALTY ICU</string>
+    <string name="title_activity_trauma1">TRAUMA TRIAGE</string>
+    <string name="title_activity_emergency1">EMERGENCY TRIAGE</string>
+    <string name="title_activity_login1">KMC MANIPAL</string>
+    <string name="title_activity_view">VIEW REPORTS</string>
+
+    <string name="label_email">Email</string>
+    <string name="label_preview">View PDF</string>
+    <string name="label_cancel">Cancel</string>
+
+
+    <string name="label_edit">Edit</string>
+    <string name="label_view">View</string>
+    <string name="label_discard">Discard</string>
+    <string name="label_perview_report">Report Preview</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_share">Share via E-Mail</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="pending_menu">
+        <item>Edit</item>
+        <item>View</item>
+        <item>Delete</item>
+        <item>Submit</item>
+    </string-array>
+
+    <string-array name="submit_menu">
+        <item>View</item>
+    </string-array>
+    <string name="title_activity_display">DISPLAY</string>
+    <string name="title_activity_about__us">ABOUT US</string>
+    <string name="title_activity_change__password">CHANGE PASSWORD</string>
+    <string name="action_changepassword">CHANGE PASSWORD</string>
+    <string name="action_logout">LOGOUT</string>
+    <string name="my_title">KMC Manipal</string>
+    <string name="title_activity_contact_us">CONTACT US</string>
+    <string name="action_admin_logout">LOGOUT</string>
+    <string name="title_activity_others">OTHERS</string>
+    <string name="title_activity_signup">SIGNUP</string>
+    <string name="title_activity_clinical_lab">CLINICAL LAB</string>
+    <string name="title_activity_cssd">CSSD</string>
+    <string name="title_activity_dialysis">DIALYSIS</string>
+    <string name="title_activity_blood">BLOOD BANK</string>
+    <string name="title_activity_pharam">PHARMACY</string>
+    <string name="title_activity_radio">RADIOLOGY</string>
+
+
+
+
+</resources>

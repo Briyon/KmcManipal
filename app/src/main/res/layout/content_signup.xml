@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:layout_marginTop="55dp"
+    tools:context="com.kmcmanipal.SignupActivity"
+    tools:showIn="@layout/activity_signup">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/Efirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="FIRST  NAME   "
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp">
+
+                </LinearLayout>
+
+            <EditText
+                android:id="@+id/Elastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="LAST NAME"
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/Edes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="DESIGNATION"
+
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/affiliation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="AFFILIATION"
+
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="E-MAIL ID"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/EUname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="USER NAME"
+
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/Epass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+
+                android:maxLength="15"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/Epass1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="CONFIRM-PASSWORD"
+                android:inputType="textPersonName"
+
+                android:maxLength="15"
+                android:maxLines="1"
+                android:password="true" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/Bsiup"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onSignUpClick"
+                android:text="SIGNUP"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

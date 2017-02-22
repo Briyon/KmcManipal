@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="55dp"
+tools:context="com.kmcmanipal.ABOUT_US">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concept by:"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/textView50" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Dr. Arun M S\n Dr. Bijoy Johnson"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:id="@+id/textView51" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Address: "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/address" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="15sp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Department of Hospital Administration,\n4th Floor, \nKasturba Hospital, \nManipal - 576104"
+                    android:textSize="15sp"
+                    android:paddingLeft="30dp"
+                    android:textColor="#000000"
+                    android:id="@+id/contact" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:id="@+id/callimage"
+                    android:background="@drawable/phone" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0820-2922587"
+                    android:textSize="15sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp">
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:id="@+id/mailpic"
+                    android:background="@drawable/emailpicture" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dha.kmc@manipal.edu"
+                    android:textSize="15sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Developed by: "
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCA Batch 2015(II Semester)\nDepartment of Computer Applications, \nMIT, Manipal"
+                android:textSize="15sp"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:id="@+id/textView35" />
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designers: "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/textView37" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Students: "
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Akshatha Ballal\n Briyon Gary Rodrigues\n Nagendra Shet\n Puneeth Kumar J\n Ramya Hebbar\n Sharanya U\n Shreya Samanth\n Vilkinson Derick Menezes\n Viona Jeesel Gomes"
+                android:id="@+id/textView38"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Faculty: "
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Dr. Poornima Panduranga Kundapur"
+                android:textSize="15sp"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App version 1.0"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/textView45" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
+

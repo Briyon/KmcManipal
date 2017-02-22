@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kmcmanipal.general_ward_main"
+    tools:showIn="@layout/activity_general_ward_main"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+
+    android:layout_marginTop="5dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Ward Name :   "
+                android:id="@+id/textView3"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextWardName"
+                android:ems="10"
+                android:singleLine="true"
+                android:layout_weight="0.17" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:text="Cleanliness "
+            android:id="@+id/chkbx_cleanliness"
+            android:checked="false"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:focusable="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="Housekeeping register updated"
+            android:id="@+id/chkbx_housekeep"
+            android:checked="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:layout_width="305dp"
+            android:layout_height="85dp"
+            android:text="Pharmacy indents received"
+            android:id="@+id/chkbx_pharmacy"
+            android:checked="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:layout_weight="0.05"
+            android:weightSum="1">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:id="@+id/button_next"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trauma"
+
+            android:title="TRAUMA TRIAGE" />
+        <item
+            android:id="@+id/nav_emergency"
+
+            android:title="EMERGENCY TRIAGE" />
+        <item
+            android:id="@+id/nav_casualty"
+
+            android:title="CASUALTY ICU" />
+        <item
+            android:id="@+id/nav_icu1"
+
+            android:title="ICU 1" />
+        <item
+            android:id="@+id/nav_icu2"
+
+            android:title="ICU 2" />
+        <item
+            android:id="@+id/nav_icu3"
+
+            android:title="ICU 3" />
+        <item
+            android:id="@+id/nav_icu4"
+
+            android:title="ICU 4" />
+        <item
+            android:id="@+id/nav_wardGeneral"
+            android:title="GENERAL WARD" />
+        <item
+            android:id="@+id/nav_wardSpecial"
+            android:title="SPECIAL WARD" />
+
+        <item
+            android:id="@+id/nav_BLOOD"
+            android:title="BLOOD BANK" />
+
+        <item
+            android:id="@+id/nav_CLINIC"
+            android:title="CLINICAL LAB" />
+        <item
+            android:id="@+id/nav_CSSD"
+            android:title="CSSD" />
+        <item
+            android:id="@+id/nav_DIALY"
+            android:title="DIALYSIS" />
+        <item
+            android:id="@+id/nav_pharm"
+            android:title="PHARMACY" />
+        <item
+            android:id="@+id/nav_RADIO"
+            android:title="RADIOLOGY" />
+        <item
+            android:id="@+id/nav_other"
+            android:title="OTHERS" />
+        <item
+            android:id="@+id/nav_view"
+            android:title="VIEW REPORTS" />
+
+    </group>
+
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/bottom_section">
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="ABOUT US" />
+        <!--<item
+            android:id="@+id/nav_contact"
+            android:title="CONTACT" />-->
+    </group>
+
+</menu>
